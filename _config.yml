@@ -1,11 +1,11 @@
 # Site settings
-author: Alexander Clamor
-title: 
+author: Alexander
+title: My Flatiron School Blog
 header-img: img/home-bg.png
 email: alexander.clamor@gmail.com
-copyright_name: Alexander Clamor
+copyright_name: Alexander
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Lessons learned
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  alexander-mc
