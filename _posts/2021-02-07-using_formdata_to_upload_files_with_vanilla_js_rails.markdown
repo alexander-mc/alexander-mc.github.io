@@ -152,6 +152,7 @@ Processing files using a JavaScript frontend and Rails backend can be difficult.
 
 ### Resources
 ***
+
 * [Uploading Files To Your Rails API]( https://itnext.io/uploading-files-to-your-rails-api-6b293a4a5c90)
 * [Having attachment issues? Paperclip vs. CarrierWave vs. Active Storage]( https://alexander-mc.github.io/having_attachment_issues_paperclip_vs_carrierwave_vs_active_storage)
 * [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html)
