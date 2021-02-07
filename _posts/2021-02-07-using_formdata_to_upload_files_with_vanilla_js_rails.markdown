@@ -34,6 +34,7 @@ First, in your controller, make sure you have your strong params set up to accep
 
 Then, I used [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html) to upload the file into Google Cloud Storage.
 
+
 #### A side note
 
 Three of the main ways to upload files on the server-side with Rails is through Active Storage, CarrierWave, or Paperclip. I’ve tried each one and wrote a brief post comparing them [here](https://alexander-mc.github.io/havingattachmentissuespaperclipvscarrierwavevsactivestorage). If you are a beginning developer and are unsure which to use, I recommend using Active Storage if
@@ -150,7 +151,7 @@ Processing files using a JavaScript frontend and Rails backend can be difficult.
 
 
 ### Resources
-
+***
 * [Uploading Files To Your Rails API]( https://itnext.io/uploading-files-to-your-rails-api-6b293a4a5c90)
 * [Having attachment issues? Paperclip vs. CarrierWave vs. Active Storage]( https://alexander-mc.github.io/having_attachment_issues_paperclip_vs_carrierwave_vs_active_storage)
 * [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html)
