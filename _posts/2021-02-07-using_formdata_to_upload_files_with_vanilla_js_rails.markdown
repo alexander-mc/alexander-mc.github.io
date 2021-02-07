@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using FormData to upload files with vanilla JS + Rails"
-date:       2021-02-07 21:35:18 +0000
+date:       2021-02-07 16:35:19 -0500
 permalink:  using_formdata_to_upload_files_with_vanilla_js_rails
 ---
 
