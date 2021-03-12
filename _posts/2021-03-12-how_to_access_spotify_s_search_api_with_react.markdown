@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to access Spotify’s Search API with React"
-date:       2021-03-12 22:37:39 +0000
+date:       2021-03-12 17:37:39 -0500
 permalink:  how_to_access_spotify_s_search_api_with_react
 ---
 
@@ -9,7 +9,7 @@ permalink:  how_to_access_spotify_s_search_api_with_react
 ### Context
 ***
 
-This post is for developers seeking to integrate Spotify’s Search API into a React-based app using Spotify’s Client Credentials Flow. The Client Credentials Flow is one of four [Spotify authorization flows](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-flows) that works great if all you need is a solution that integrates Spotify’s Search API into your app without requiring users to log into their Spotify account. This minimizes the risk that a user will leave your program prematurely. It also means you don’t need to worry about redirecting the user back to your app (i.e. less code!). However, because the Client Credentials Flow does not require users to authorize access to their Spotify account, you won’t be able to retrieve any user information such as a users’ Spotify profile details, playback history, and playlists.
+This post is for developers seeking to integrate Spotify’s Search API into a React-based app using Spotify’s Client Credentials Flow. The Client Credentials Flow is one of four [Spotify authorization flows](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-flows). One large benefit of this flow is that it doesn't require users to log into their Spotify account. This minimizes the risk that a user will leave your app prematurely. It also means you don’t need to worry about redirecting the user back to your app (i.e. less code!). However, because the Client Credentials Flow does not require users to authorize access to their Spotify account, you won’t be able to retrieve any user information such as a users’ Spotify profile details, playback history, and playlists.
 
 Still there? Terrific. Let's get started...
 
