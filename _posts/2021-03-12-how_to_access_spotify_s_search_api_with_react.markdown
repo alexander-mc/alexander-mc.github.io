@@ -9,9 +9,9 @@ permalink:  how_to_access_spotify_s_search_api_with_react
 ### Context
 ***
 
-This post is for developers seeking to integrate Spotify’s Search API into a React-based app using Spotify’s Client Credentials Flow. The Client Credentials Flow is one of four [Spotify authorization flows](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-flows). One large benefit of this flow is that it doesn't require users to log into their Spotify account. This minimizes the risk that a user will leave your app prematurely. It also means you don’t need to worry about redirecting the user back to your app (i.e. less code!). However, because the Client Credentials Flow does not require users to authorize access to their Spotify account, you won’t be able to retrieve any user information such as a users’ Spotify profile details, playback history, and playlists.
+This post is for developers seeking to integrate Spotify’s Search API into a React-based app using Spotify’s Client Credentials Flow, one of four [Spotify authorization flows](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-flows). One large benefit of this flow is that it doesn't require users to log into their Spotify account, minimizing the risk that a user will leave your app before logging in. It also means you don’t need to worry about redirecting the user back to the app (i.e. less code!). However, because the Client Credentials Flow does not require users to authorize access to their Spotify account, you won’t be able to retrieve any user information such as a users’ Spotify profile details, playback history, and playlists.
 
-Still there? Terrific. Let's get started...
+Now, let's get started...
 
 ### 1. Register a Spotify application to obtain a client ID and client secret
 ***
@@ -123,7 +123,7 @@ Next, import the wrapper into your component.
 import SpotifyWebApi from 'spotify-web-api-js';
 ```
 
-Now, let’s go back to where we left off in our SearchInput class. Right after we get our access token from Spotify’s server, we want to share the token with our wrapper, since it's actually our wrapper that will be interacting with Spotify’s API.
+Let’s now go back to where we left off in our SearchInput class. Right after we get our access token from Spotify’s server, we want to share the token with our wrapper, since it's actually our wrapper that will be interacting with Spotify’s API.
 
 ```
 const spotify = new SpotifyWebApi();
