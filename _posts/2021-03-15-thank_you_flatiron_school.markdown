@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Thank you, Flatiron School!"
-date:       2021-03-15 06:34:55 +0000
+date:       2021-03-15 02:34:55 -0400
 permalink:  thank_you_flatiron_school
 ---
 
@@ -15,7 +15,7 @@ A much tougher decision to make, however, was what to do after the move.
 
 The pandemic seemed to slow down time. I saw this as an opportunity to do something I’ve always wanted to do, but never had the courage, know-how, or time to do it – build products. And not just any product, but a digital product. And not just any digital product, but one in music, a field I’ve been passionate about since childhood.
 
-To be fair, programming and building technologies are not completely new topics for me. As a consultant, I designed and built a digital product, and prior to that, I had taken coding classes through MITx and then in graduate school. However, designing and coding a digital music product entirely of my choosing was something new, and very exciting.
+To be fair, programming and building technologies are not completely new topics for me. As a consultant, I accidentally stumbled into a product management role (this was the best accident to happen to me professionally). I also took coding classes in graduate school and through MITx. However, *designing and coding a digital music product entirely of my choosing *was something new, and to me very exciting.
 
 Over the past six months, I’m grateful that I’ve had the time and support of the Flatiron School to build several music technologies – some admittedly simple and some complex. These are a few of them:
 
